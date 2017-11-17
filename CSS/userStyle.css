@@ -1,0 +1,55 @@
+#Container {
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom:auto;
+		
+}
+
+#Header {
+	height: 150px;
+	background-image: url(../image/nith2b.jpg);
+}
+
+#Menu {
+	height: 60px;
+	background-color:#677077;
+}
+
+#SideBar {
+	width: 200px;
+	height: 600px;
+	background-color:#6534FF;
+	float:left;
+}
+
+#MainBody {
+	width: 1350px;
+	height: 450px;
+	background-color: #E3E3E3;	
+	float:right;
+}
+#img{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+#content{
+	position: absolute;
+	right:0;
+	width: 1125px;
+	height: 400px;
+	padding: 10px;
+}
+#content h3{
+	color: #995823; 
+	font-family: 'Trebuchet MS',Helvetica,sans-serif; 
+	font-size: 20px; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: 1; 
+	text-align: center; 
+}

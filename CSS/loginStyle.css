@@ -1,0 +1,88 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#Container {
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom:auto;
+		
+}
+
+#Header {
+	height: 150px;
+	background-image: url(../image/nith2b.jpg);
+}
+
+#Menu {
+	height: 60px;
+	background-color:#677077;
+}
+#MainBody {
+	width: 1350px;
+	height: 600px;
+	background-color: #E3E3E3;	
+}
+#form1
+{
+	position: relative;
+    width: 250px;
+	height: 200px;
+	top: 20%;
+	margin-left:20px;
+	left:40%;
+}
+#form2
+{
+	position: relative;
+    width: 250px;
+	height: 200px;
+	top: 5%;
+	margin-left:20px;
+	float: left;
+}
+#map{
+	position: relative;
+	top:5%;
+	margin-right:20px;
+	width: 400px;
+	height:440px;
+	float: right;
+}
+#autocomplete{
+	width: 275px;
+}
+#address{	
+}
+#formtable{
+	position:absolute;
+	width:500px;
+	height:450px;
+	float:left;
+	margin-left:10px;
+	padding-right:2px;
+}
+td {
+	text-align:justify;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color:#9B6061;
+}
+#username,#pass,#repass,#date,#locality,#apt,#postal_code,#administrative_area_level_1,#country,#name,#uname{
+	width: 200px;
+}
+#area
+{
+	width:200px;
+	height:50px;
+}
+#street_number{
+	width: 200px;
+}
+#route{
+	width: 200px;
+}

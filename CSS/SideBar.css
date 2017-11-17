@@ -1,0 +1,32 @@
+#SideBar {
+	width: 150px;
+	height: 600px;
+	background-color:#6534FF;
+	float:left;
+}
+
+#SideBar ul {
+	margin: 0;
+	padding: 0;
+}
+
+#SideBar li {
+	list-style-type: none;
+	float: center;
+	display: block;
+	width: 150px;
+	height: 60px; /*same as SideBar div*/
+	text-align: justify;
+	line-height:55px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:18px;	
+}
+
+#SideBar li a {
+	text-decoration: blink;
+	color:#FFF;	
+}
+
+#SideBar li:Hover {
+	background-color: #62BCFA;	
+}
